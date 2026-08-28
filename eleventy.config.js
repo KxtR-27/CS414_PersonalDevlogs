@@ -130,6 +130,12 @@ export default async function (eleventyConfig) {
 	// https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
 
 	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+
+    // Kat's Personal Devlogs
+    eleventyConfig.addExtension("11ty.ts", {
+        key: "11ty.js"
+    })
+    eleventyConfig.addTemplateFormats("11ty.ts")
 }
 
 export const config = {
