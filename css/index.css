@@ -7,34 +7,35 @@
 		Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
-/* Theme colors */
+/* Theme colors - Catppuccin Latte */
 :root {
-	--color-gray-20: #e0e0e0;
-	--color-gray-50: #c0c0c0;
-	--color-gray-90: #333;
+	--color-gray-20: /* Subtext 1 */ #5c5f77;
+	--color-gray-50: /* Subtext 0 */ #6c6f85;
+	--color-gray-90: /* Text */ #4c4f69;
 
-	--background-color: #fff;
+	--background-color: /* Base */ #eff1f5;
 
 	--text-color: var(--color-gray-90);
-	--text-color-link: #082840;
-	--text-color-link-active: #5f2b48;
-	--text-color-link-visited: #17050f;
+	--text-color-link: /* Blue */ #1e66f5;
+	--text-color-link-active: /* Sky */ #04a5e5;
+	--text-color-link-visited: /* Mauve */ #8839ef;
 
 	--syntax-tab-size: 2;
 }
 
+/* Theme colors (dark) - Catppuccin Mocha */
 @media (prefers-color-scheme: dark) {
 	:root {
-		--color-gray-20: #e0e0e0;
-		--color-gray-50: #c0c0c0;
-		--color-gray-90: #dad8d8;
+		--color-gray-20: /* Text */ #cdd6f4;
+		--color-gray-50: /* Subtext 0 */ #a6adc8;
+		--color-gray-90: /* Subtext 1 */ #bac2de;
 
 		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #1493fb;
-		--text-color-link-active: #6969f7;
-		--text-color-link-visited: #a6a6f8;
+		--text-color-link: /* Blue */ #89b4fa;
+		--text-color-link-active: /* Sky */ #89dceb;
+		--text-color-link-visited: /* Mauve */ #cba6f7;
 
-		--background-color: #15202b;
+		--background-color: /* Base */ #1e1e2e;
 	}
 }
 

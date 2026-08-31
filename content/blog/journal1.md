@@ -9,6 +9,7 @@ Oh, wait, you have..? That's... awkward...
 
 Well, either way, this site documents my journey through my first professional,
 collaborative game production journey as it unfolds throughout the entire school year.
+This is also my first time using 11ty.
 Each week I will upload a devlog covering development progress and my contributions to the game from that week.
 
 "But, Kat," you ask, "what _is_ the game?"
