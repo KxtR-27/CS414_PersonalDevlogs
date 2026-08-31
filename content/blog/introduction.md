@@ -1,5 +1,5 @@
 ---
-title: "Journal 1 - Hello World!"
+title: "Introduction - Your Typical Hello World!"
 description: "My first post, which explains the purpose of this site."
 date: 2026-08-31
 ---
@@ -33,4 +33,4 @@ We're trying to start small for our minimum-viable product.
 With any luck, we'll find the fun and go from there.
 
 That about wraps it up.
-See you next week!
+See you soon for the first journal!
