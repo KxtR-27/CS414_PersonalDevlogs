@@ -1,5 +1,5 @@
 ---
-title: "Introduction - Your Typical Hello World!"
+title: "Journal 1: Introduction - Your Typical Hello World!"
 description: "My first post, which explains the purpose of this site."
 date: 2026-08-31
 ---
