@@ -4,7 +4,7 @@
 :root {
 	--font-family:
 		"Open Sans", sans-serif, Arial, Helvetica, -apple-system, system-ui;
-    --font-family-monospace:
+	--font-family-monospace:
 		Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console,
 		Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono,
 		Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
@@ -300,4 +300,16 @@ header {
 }
 .post-metadata time {
 	margin-right: 1em;
+}
+
+a {
+	color: #89b4fa !important;
+}
+
+a:active {
+	color: #74c7ec !important;
+}
+
+a:visited {
+	color: #cba6f7 !important;
 }
