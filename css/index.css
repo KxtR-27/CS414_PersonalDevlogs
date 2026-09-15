@@ -313,3 +313,11 @@ a:active {
 a:visited {
 	color: #cba6f7 !important;
 }
+
+:not(pre) code {
+	padding: 0.25em;
+	background-color: #181825;
+	border-radius: 0.25em;
+	word-break: keep-all;
+	text-wrap-style: pretty;
+}
