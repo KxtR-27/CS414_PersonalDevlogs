@@ -174,11 +174,11 @@ table th {
 }
 
 blockquote {
-    margin-left: 0;
-    padding-left: 1rem;
-    border-left: 4px solid var(--color-gray-50);
-    font-style: italic;
-    color: var(--color-gray-90);
+	margin-left: 0;
+	padding-left: 1rem;
+	border-left: 4px solid var(--color-gray-50);
+	font-style: italic;
+	color: var(--color-gray-90);
 }
 
 pre,

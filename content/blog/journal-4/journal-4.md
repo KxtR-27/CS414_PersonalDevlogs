@@ -43,14 +43,14 @@ I created a box which characters cannot leave.
 While it is somewhat strange to have four different shapes, the reason is clear.
 I might be inclined to make an arbitrarily-thin rectangle shape for each end, as that is most familiar,
 but it turns out that this makes collisions incredibly more expensive for the engine to calculate.
-The `WorldBoundaryShape2D` was made for cases like this. 
+The `WorldBoundaryShape2D` was made for cases like this.
 They extend infinitely and arbitrarily, meaning a collision check has much simpler math behind it.
 
 ## Time Estimation
 
-I estimated that my work this week would take about four hours. 
+I estimated that my work this week would take about four hours.
 It took about three, as tasks I originally perceived as tedious or difficult (such as the z-indexing of characters)
-were actually quite simple to fix. 
+were actually quite simple to fix.
 
 This meant I had an extra hour to add some cool tools, such as screen boundary snapping.
 
@@ -66,7 +66,7 @@ Everything is documented, too.
 
 ## Struggles
 
-Collision layers and collision masks. Let's get into them. 
+Collision layers and collision masks. Let's get into them.
 I never understood the difference, and the Godot documentation for it never made much sense.
 Hopefully this helps you, reader, as it helped me.
 
@@ -85,8 +85,8 @@ They're not looking to do anything with that information.
 So, they get their own layer.
 
 However, the player sits on a different layer.
-They don't need to live on the boundary layer, but they *do* need to *check* for it.
-By telling the player to *mask* the boundaries' layer, they will make sure that they collide when running into it.
+They don't need to live on the boundary layer, but they _do_ need to _check_ for it.
+By telling the player to _mask_ the boundaries' layer, they will make sure that they collide when running into it.
 
 The boundaries _live_ on their own _layer_.
 The player _checks_ the equivalent _mask_ to stop when they hit the boundary.
