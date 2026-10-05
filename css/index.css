@@ -173,6 +173,14 @@ table th {
 	padding-right: 1em;
 }
 
+blockquote {
+	margin-left: 0;
+	padding-left: 1rem;
+	border-left: 4px solid var(--color-gray-50);
+	font-style: italic;
+	color: var(--color-gray-90);
+}
+
 pre,
 code {
 	font-family: var(--font-family-monospace);
