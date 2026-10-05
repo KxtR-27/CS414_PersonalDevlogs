@@ -24,7 +24,7 @@ Originally, we had a weird issue where some characters would appear over top of 
 This got especially weird because character sprites have shadows, which would appear over top of the characters behind them.
 Right when I was about to make a nightmarish process polling for setting z-indexes myself, I found this:
 
-![alt text](image.png)
+![The field "Y Sort Enabled" is circled in a screenshot of the Godot editor.](image.png)
 
 This makes children of the main game scene follow a simple pattern.
 Rather than layering the nodes in the order of the scene hierarchy (farther up in the list shows behind nodes farther down),
@@ -54,7 +54,7 @@ were actually quite simple to fix.
 
 This meant I had an extra hour to add some cool tools, such as screen boundary snapping.
 
-![alt text](image-1.png)
+![Tool buttons for the screen boundaries to snap to various areas.](image-1.png)
 
 I spent a lot of time manually calculating where to place the edge boundaries when I was first making them.
 Imagine how much of a pain it would be to recalculate if we changed the window size?
@@ -62,7 +62,7 @@ Imagine how much of a pain it would be if we decided that the screen should be r
 I took the math I did originally and made it into a function: you give me a rectangle, I snap the boundaries to it.
 Everything is documented, too.
 
-![alt text](image-2.png)
+![A screenshot of the documentation comments for the previously mentioned tool buttons.](image-2.png)
 
 ## Struggles
 
