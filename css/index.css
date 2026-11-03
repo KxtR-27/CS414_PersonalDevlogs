@@ -323,9 +323,23 @@ a:visited {
 }
 
 :not(pre) code {
-	padding: 0.25em;
+	padding: 0.15em 0.25em;
+
 	background-color: #181825;
 	border-radius: 0.25em;
 	word-break: keep-all;
 	text-wrap-style: pretty;
+}
+
+kbd {
+    margin: 0 0.2rem;
+    padding: 0.1em 0.2em;
+
+    border: 1px solid var(--color-gray-90);
+    border-radius: 0.5em;
+}
+
+/* grr reddit embed */
+.post-metadata:has(+ iframe) {
+    margin-bottom: 1rem;
 }
