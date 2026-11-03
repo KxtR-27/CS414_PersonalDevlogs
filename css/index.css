@@ -332,14 +332,14 @@ a:visited {
 }
 
 kbd {
-    margin: 0 0.2rem;
-    padding: 0.1em 0.2em;
+	margin: 0 0.2rem;
+	padding: 0.1em 0.2em;
 
-    border: 1px solid var(--color-gray-90);
-    border-radius: 0.5em;
+	border: 1px solid var(--color-gray-90);
+	border-radius: 0.5em;
 }
 
 /* grr reddit embed */
 .post-metadata:has(+ iframe) {
-    margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }

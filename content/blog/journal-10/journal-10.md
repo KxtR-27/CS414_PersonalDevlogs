@@ -115,8 +115,8 @@ That deserves a gold star!
 ---
 
 Look forward to news about our playtests next week!
-Will Mr. Stinky Butt make a return? 
-Who knows! 
+Will Mr. Stinky Butt make a return?
+Who knows!
 Only one way to find out!
 
 Cheers!
