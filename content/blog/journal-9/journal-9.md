@@ -114,9 +114,9 @@ Anyway! Pictures!
 
 ![alt text](image-2.png)
 <sup><i>
-    It's basically the same! But with no more scaling issues! 
-    Also, when we add things in the future, 
-    things aren't liable to break as they did when I started this whole ordeal!
+It's basically the same! But with no more scaling issues!
+Also, when we add things in the future,
+things aren't liable to break as they did when I started this whole ordeal!
 </i></sup>
 
 And with that, just a few changes have a big effect.
@@ -126,7 +126,7 @@ And with that, just a few changes have a big effect.
 Team communication was a big issue here, as you may see in the PR.
 
 Way back in Journal 5, I covered the last time I dared make an unsolicited PR.
-It did not go over well. 
+It did not go over well.
 I overwrote Alex's hard work without a second thought, which was totally my bad.
 It worked out well in the end, but it wasn't fun.
 
@@ -136,16 +136,16 @@ Alex spent a lot of time designing this screen as well as the impressive amount 
 This time around, that was my number one priority.
 I was only here to fix scaling, after all.
 
-Many times throughout development, 
+Many times throughout development,
 when state management was touch-and-go,
 I cannot deny that there was an urge to rewrite it all myself.
-But I decided to trust the process. 
+But I decided to trust the process.
 Over the past few weeks, Alex addressed so much surrounding this menu mechanically,
 and it has come together incredibly cleanly.
 
 In the end, the solution favored everyone.
 It's _these things_ that motivate me to make games.
-Not the game itself, but the compassion around it, 
+Not the game itself, but the compassion around it,
 and the people's works to which I can dedicate my own.
 
 Cheers. Queue the fanfare.
