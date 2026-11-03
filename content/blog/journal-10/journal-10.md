@@ -1,6 +1,6 @@
 ---
-title: "Journal 10: Milestone 2 and breaking the ending"
-description: "I discuss Milestone 2, including goals and what I've done, and I explain Godot Editor Recovery Mode."
+title: "Journal 10: Milestone 2 and breaking the editor"
+description: "I discuss what I've done for Milestone 2, and I explain Godot Editor Recovery Mode."
 date: 2026-11-02
 ---
 
@@ -114,4 +114,9 @@ That deserves a gold star!
 
 ---
 
-Cheers.
+Look forward to news about our playtests next week!
+Will Mr. Stinky Butt make a return? 
+Who knows! 
+Only one way to find out!
+
+Cheers!
