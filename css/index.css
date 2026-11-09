@@ -12,7 +12,7 @@
 
 /* Theme colors - Catppuccin Latte */
 :root {
-    --color-code: /* Mantle */ #e6e9ef;
+	--color-code: /* Mantle */ #e6e9ef;
 	--color-gray-20: /* Subtext 1 */ #5c5f77;
 	--color-gray-50: /* Subtext 0 */ #6c6f85;
 	--color-gray-90: /* Text */ #4c4f69;
@@ -30,7 +30,7 @@
 /* Theme colors (dark) - Catppuccin Mocha */
 @media (prefers-color-scheme: dark) {
 	:root {
-        --color-code: /* Mantle */ #181825;
+		--color-code: /* Mantle */ #181825;
 		--color-gray-20: /* Text */ #cdd6f4;
 		--color-gray-50: /* Subtext 0 */ #a6adc8;
 		--color-gray-90: /* Subtext 1 */ #bac2de;
@@ -347,5 +347,5 @@ kbd {
 }
 
 li + li {
-    margin-top: 0.75rem;
+	margin-top: 0.75rem;
 }
