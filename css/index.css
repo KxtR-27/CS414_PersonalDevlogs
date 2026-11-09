@@ -345,3 +345,7 @@ kbd {
 .post-metadata:has(+ iframe) {
 	margin-bottom: 1rem;
 }
+
+li + li {
+    margin-top: 0.75rem;
+}
