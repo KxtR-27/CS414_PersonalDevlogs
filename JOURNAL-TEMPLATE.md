@@ -6,6 +6,8 @@ date: YYYY-MM-DD
 
 ...
 
+---
+
 ## Tasks Worked On
 
 <!-- untab when you have an actual link -->
@@ -32,5 +34,7 @@ date: YYYY-MM-DD
 ## Team Communication
 
 ...
+
+---
 
 Cheers.
